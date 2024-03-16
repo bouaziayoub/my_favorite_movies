@@ -1,0 +1,32 @@
+{
+  "homepage": "https://ayoubbouazi.github.io/my_favorite_movies",
+  "name": "practica-js",
+  "version": "1.0.0",
+  "description": "todo_list_my_movies",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "ayoub",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.2",
+    "gh-pages": "^6.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "materialize-css": "^1.0.0",
+    "mini-css-extract-plugin": "^2.7.0"
+  }
+}

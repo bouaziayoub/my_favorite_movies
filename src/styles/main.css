@@ -1,0 +1,57 @@
+body {
+  width: 60%;
+  margin: auto;
+}
+h3 {
+  float: left;
+  text-align: center;
+  margin-left: 30%;
+}
+#header {
+  color: rgb(40, 40, 134);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+span {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+p {
+  margin-left: 10px;
+}
+.btn {
+  margin-left: 15px;
+}
+.no-margin-y {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.nav-wrapper {
+  padding-left: 10px;
+}
+.info-btn {
+  margin-left: 30px;
+}
+.error {
+  margin-bottom: 1rem;
+  color: red;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  border: solid 1px red;
+  padding: 1rem;
+  background-color: rgb(254, 201, 201);
+}
+
+.details{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 1px rgb(40, 40, 134);
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(40, 40, 134);
+    color: white;
+}
